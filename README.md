@@ -50,7 +50,7 @@ required by the respective component throughout its lifespan. It's best to keep
 logic in the `Update()` method as efficient as possible, since it has a direct
 impact on the simulation frame rate.
 
-> **Note** <br>
+> [!NOTE]
 > There are two other "update" methods in the scripting lifecycle:
 > `LateUpdate()` and `FixedUpdate()`. Similarly, there is a `Start()` method
 > "alternative" called `Awake()`. There are subtle, but important differences
